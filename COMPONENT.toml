@@ -3,12 +3,12 @@ name = "SigmaOS-activitypub"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "activitypub component"
+description = "This repository is currently a minimal no_std component identity scaffold. Its library exposes a Component named SigmaOS-activitypub."
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
